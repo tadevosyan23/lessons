@@ -1,0 +1,102 @@
+.carousel-inner{
+	top: -20px;
+}
+.ice{
+	height: 50px;
+	border:solid;
+}
+.ice p{
+	text-align: center;
+	font-size: 30px;
+}
+.collapse1{
+	border: solid;
+	height: 200px;
+	left: -55px;
+	top: 40px;
+}
+.img{
+	height: 180px;
+	margin-left: 10px;
+}
+.collapse2{
+	border: solid;
+	height: 200px;
+	top: 40px;
+}
+.info{
+	height: 50px;
+	border:solid;
+	top: 60px;
+}
+.info p{
+	text-align: center;
+	font-size:30px; 
+}
+.in{
+	border: solid;
+	height: 200px;
+	top: 90px;
+}
+.div2{
+	margin-top: 35px;
+    border: solid;
+    left: -50px;
+    top: 50px;
+    height: 200px;
+}
+
+.klor{
+
+	top: 130px;
+}
+.log{
+	top: 140px;
+}
+.btn{
+	margin-left: 290px;
+}
+.cream{
+	height: auto;
+}
+@media only screen and (max-width:900px){
+	.collapse2{
+		    left: -55px;
+    		margin-top: 5px;
+	}
+	.collapse1{
+		    left: -55px;
+    		margin-top: 5px;
+	}
+	.div2{
+		    top: 70px;
+		    margin-top: 5px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
