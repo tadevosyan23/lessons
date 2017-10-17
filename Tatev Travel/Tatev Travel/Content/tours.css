@@ -1,0 +1,74 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.bg-img {
+    background-image: url("http://tatev.com/admin/uploads/backgrounds/23423.jpeg");
+    background-repeat: no-repeat;
+    background-position:bottom; 
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:45vh;
+    
+}
+.title h1 {
+    padding-top:110px;
+}
+.title h1 span{
+	color: white;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 45px;
+}
+.title h4 {
+    font-family:"Montserrat";
+    color:white;
+    font-size:25px;
+}
+
+.content {
+    margin-top:60px;
+    margin-bottom:80px;
+}
+.content .tours{
+    
+    margin:20px;
+}
+.content .tours .hover{
+    
+    margin-bottom:30px;
+}
+
+.tour-link button{
+    border:1px solid #DDDDDD;
+    background-color:#F9F9F9;
+    border-radius:2px;
+    padding:15px 70px;
+    padding-left:10px;    
+    text-align:left;
+   
+}
+.tour-link button:focus {
+    background-color:#F9F9F9;
+    border-color:#F9F9F9;
+}
+.tour-link button:hover {
+    background:#F9F9F9;
+    border-color:#DDDDDD;
+}
+.tour-link a{
+    color:black;
+    font-family: 'Montserrat', sans-serif;
+    font-size:12px;
+   
+}
+.tour-link a:hover {
+    text-decoration:none;
+    
+}
+.tour-link i{
+    font-size:8px;
+    color:#4a4a4a;
+    
+}
+
+
+
