@@ -208,6 +208,8 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\promotionsStyle.css" />
+    <Content Include="Content\articleStyle.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\main.js" />
@@ -273,12 +275,13 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Blog.cshtml">
-      <BrowseToURL>~/Home/Article</BrowseToURL>
+      <BrowseToURL>~/Home/Articles</BrowseToURL>
     </Content>
     <Content Include="Views\Shared\Blog.cshtml">
       <BrowseToURL>~/Shared/Article</BrowseToURL>
     </Content>
     <Content Include="Views\Home\Articles.cshtml" />
+    <Content Include="Views\Home\Promotions.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

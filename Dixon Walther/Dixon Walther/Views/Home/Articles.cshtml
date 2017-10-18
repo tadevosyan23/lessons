@@ -1,5 +1,5 @@
 ﻿@{
-    Layout = null;
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <!DOCTYPE html>
@@ -7,11 +7,65 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="~/Content/articleStyle.css" />
+    <title>Articles</title>
 </head>
 <body>
-    <div>
-    
+    <div class="blog">
+        <h1 class="text-center">BLOG</h1>
+        <hr>
     </div>
+    <div id="articleBlok">
+        <div class="row text-left">
+            <div class="col-md-4"  >
+                <div class="hover">
+                    <img src="http://cms.dixonwalther.com//Pics/ArticalsSmallPics/ArticlePicf3fb583c-55f4-4698-8788-50d383709a2f.jpeg" alt="" class="image">
+                    <div class="overlay">
+                        <div class="text">VIEW ARTICLE</div>
+                    </div>
+                </div>
+                <a href="#">Why Dixon Walther?</a>
+                <p>
+                    Dixon Walther Professional Service Corporation performs UI Design, Web, 
+                    Mobile and Desktop software Development and IT consultancy. 
+                    Are you thinking ...
+                </p>
+            </div>
+            <div class="col-md-4" >
+                <div class="hover">
+                    <img src="http://cms.dixonwalther.com//Pics/ArticalsSmallPics/ArticlePicc925283f-8953-472a-a9b3-67392269e5b2.jpeg" alt="" class="image">
+                    <div class="overlay">
+                        <div class="text">VIEW ARTICLE</div>
+                    </div>
+                </div>
+                <a href="#">Top Key Features of Every Good Moder...</a>
+                <p>
+                    Dixon Walther Professional Service Corporation performs UI Design, Web,
+                    Mobile and Desktop software Development and IT consultancy.
+                    Are you thinking ...
+                </p>
+            </div>
+            <div class="col-md-4" >
+                <div class="hover">
+                    <img src="http://cms.dixonwalther.com//Pics/ArticalsSmallPics/ArticlePic2b36e8ef-985f-4da5-b830-72ebf6475bb1.jpg" alt="" class="image">
+                    <div class="overlay">
+                        <div class="text">VIEW ARTICLE</div>
+                    </div>
+                </div>
+                <a href="#">Top Reasons Why a Good Website Is Cr...</a>
+                <p>
+                    Dixon Walther Professional Service Corporation performs UI Design, Web,
+                    Mobile and Desktop software Development and IT consultancy.
+                    Are you thinking ...
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $("li a").css({ "color": "white", "font-weight": "bold" });
+        
+    </script>
 </body>
 </html>

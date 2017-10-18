@@ -26,5 +26,19 @@ namespace Dixon_Walther.Controllers
 
             return View();
         }
+
+        public ActionResult Articles()
+        {
+            ViewBag.Message = "Articles";
+
+            return View();
+        }
+
+        public ActionResult Promotions()
+        {
+            ViewBag.Message = "Promotions";
+
+            return View();
+        }
     }
 }

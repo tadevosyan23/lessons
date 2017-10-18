@@ -1,0 +1,79 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title - Promotions</title>
+    <link rel="stylesheet" href="~/Content/promotionsStyle.css" />
+    
+</head>
+<body>
+    <div class="promotions">
+        <h1 class="text-center">WANT A MODERN AND RESPONSIVE WEBSITE?</h1>
+        <hr>
+    </div>
+    <div class="container">
+        <div class="promInfo">
+            <p class="firstChild">
+                Dixon Walther Professional Service Corporation is here to meet your expectations. You are on the right way – register until 30th of September to take advantage of this rare offer.
+                Here is what you get for just <span class="boldText">$899.</span>
+            </p>
+            <p><i class="fa fa-check"></i> An outstanding website. (A unique design is guaranteed and will be discussed and approved by the customer).</p>
+            <p><i class="fa fa-check"></i> Custom logo. (Will enhance your chances to enter the market quicker. Design will be discussed with customer).</p>
+            <p><i class="fa fa-check"></i> 6 menu and 36 submenus with its own content</p>
+            <p><i class="fa fa-check"></i> Full access to Content Management System which allows to do full editing.</p>
+            <p><i class="fa fa-check"></i> Comes with emailing system – (is an asset in business world).</p>
+            <p><i class="fa fa-check"></i> Ability to Link Social Media Accounts (Facebook, Twitter, LinkedIn, etc.)</p>
+            <p><i class="fa fa-check"></i> Google Analytics setup</p>
+        </div>
+        <div class="contact">
+            <p class="text-center">Register your business online or call us <span class="boldText">+1(612) 254 4480</span></p>
+            <form action="">
+                <div class="form-group ">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" id="name" placeholder="Contact Name*" name="name">
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" id="number" placeholder="Phone Number" name="number">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group ">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <select class="form-control" id="exampleSelect1">
+                                <option>Choose Country*...</option>
+                                <option>Unidted States(US)</option>
+                                <option>Armenia</option>
+                                <option>Argentina</option>
+                                <option>Australia(AU)</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-6">
+                            <input type="email" class="form-control" id="exampleInputEmail1"  placeholder="Email Address*">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" placeholder="About this sites" id="exampleTextarea" rows="10"></textarea>
+                </div>
+                <div class="form-group text-center">
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </div>
+               
+                   
+                
+            </form>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+        $("li a").css({ "color": "white", "font-weight": "bold" });
+    </script>
+</body>
+</html>
