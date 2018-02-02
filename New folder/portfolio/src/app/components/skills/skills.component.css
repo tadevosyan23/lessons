@@ -1,0 +1,11 @@
+.content {
+
+}   
+.content h1 {
+    color: rgb(0, 238, 255);
+    font-size: 50px;
+}
+.content p {
+    color: white;
+    font-size: 25px;
+}

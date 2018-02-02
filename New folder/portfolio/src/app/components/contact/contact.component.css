@@ -1,0 +1,21 @@
+.content {
+    width: 100%;
+
+}
+/* Left Bar */
+.content .leftBar {
+    width: 40%; 
+    float: left;
+    
+}
+
+
+
+
+
+/* Right Bar */
+
+.content .rightBar {
+    width: 60%; 
+}
+

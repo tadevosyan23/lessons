@@ -1,0 +1,34 @@
+<nav>    
+    
+    <a routerLink= "/home"  routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">
+        <i class="fa fa-home" aria-hidden="true"></i>
+        <span id="home">HOME</span>
+    </a>
+    <a routerLink="/about" routerLinkActive="active">
+        <i class="fa fa-user-circle" aria-hidden="true"></i>
+        <span id="about">ABOUT</span>
+    </a>
+    <a routerLink="/skills" routerLinkActive="active">
+        <i class="fa fa-cog" aria-hidden="true"></i>
+        <span id="skills">SKILLS</span>
+    </a>
+    <a routerLink="/mywork" routerLinkActive="active">
+        <i class="fa fa-folder-open" aria-hidden="true"></i>
+        <!-- <i class="fa fa-angellist" aria-hidden="true"></i> -->
+        <span id="mywork">MY WORK</span>
+    </a>
+    <a routerLink="/contact" routerLinkActive="active">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <span id="contact">CONTACT</span>
+    </a>
+</nav>
+<div class="bars">
+    <i class="fa fa-bars" aria-hidden="true" (click)="fun1($event)"></i>
+</div>
+
+
+
+
+<router-outlet></router-outlet>
+
+
